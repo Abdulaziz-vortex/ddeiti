@@ -1,0 +1,22 @@
+.banner{
+    height: 70vh;
+
+    .swiper-main-banner{
+        height: 100%;
+    }
+    &__slide-content{
+        left: 0px;
+    }
+    &__slide{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-content{
+            & button{
+                margin-top: 20px;
+            }
+        }
+    }
+}

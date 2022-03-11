@@ -1,0 +1,236 @@
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./public_html/src/scss/main.scss ***!
+  \*************************************************************************************************************************/
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../c348ac99348e2a745229.eot);
+  src: local("Aquawax Pro DemiBold"), local("AquawaxPro-DemiBold"), url(../c348ac99348e2a745229.eot?#iefix) format("embedded-opentype"), url(../97711d0d000c241779ba.woff2) format("woff2"), url(../5030bd611981d87f9177.woff) format("woff"), url(../c8607a882c0d992a4652.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../4b467447d34753c4bd1e.eot);
+  src: local("Aquawax Pro Heavy Italic"), local("AquawaxPro-HeavyItalic"), url(../4b467447d34753c4bd1e.eot?#iefix) format("embedded-opentype"), url(../5df3704f7913b376ca99.woff2) format("woff2"), url(../54ef72507003e94a2392.woff) format("woff"), url(../5e05113479ac01f633ed.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../f9c8392f03d5a83674c4.eot);
+  src: local("Aquawax Pro DemiBold Italic"), local("AquawaxPro-DemiBoldItalic"), url(../f9c8392f03d5a83674c4.eot?#iefix) format("embedded-opentype"), url(../e8aa420e405b131ae39f.woff2) format("woff2"), url(../d12a1b3e1dd91c912fb9.woff) format("woff"), url(../0835f7002b47674a0a6b.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../3f22ec1345cf480233fc.eot);
+  src: local("Aquawax Pro Bold"), local("AquawaxPro-Bold"), url(../3f22ec1345cf480233fc.eot?#iefix) format("embedded-opentype"), url(../b88029998c18f8e975e6.woff2) format("woff2"), url(../1c356256ac4721fbeab1.woff) format("woff"), url(../3140c4256c0da56b686e.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../8ab01c6e336b432e3746.eot);
+  src: local("Aquawax Pro Bold Italic"), local("AquawaxPro-BoldItalic"), url(../8ab01c6e336b432e3746.eot?#iefix) format("embedded-opentype"), url(../a6a2de591ed3be8b92e8.woff2) format("woff2"), url(../8ac5dce7f206aa5699b9.woff) format("woff"), url(../c00b8c9f9976ae7a2731.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../85fa03cbe33e1a997915.eot);
+  src: local("Aquawax Pro Thin Italic"), local("AquawaxPro-ThinItalic"), url(../85fa03cbe33e1a997915.eot?#iefix) format("embedded-opentype"), url(../f893bc36015a8e42693a.woff2) format("woff2"), url(../19a9932f6926a9612958.woff) format("woff"), url(../96ee259e587b02007d11.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../39b8be5141ef8e2d0612.eot);
+  src: local("Aquawax Pro Light"), local("AquawaxPro-Light"), url(../39b8be5141ef8e2d0612.eot?#iefix) format("embedded-opentype"), url(../ff809be2161f6b6868b9.woff2) format("woff2"), url(../e464715d7bca4cc1262a.woff) format("woff"), url(../2ced088255ae65930562.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../4fa8e869dccb48d4c87b.eot);
+  src: local("Aquawax Pro Light Italic"), local("AquawaxPro-LightItalic"), url(../4fa8e869dccb48d4c87b.eot?#iefix) format("embedded-opentype"), url(../d3cc13d43b536f818e17.woff2) format("woff2"), url(../8106f5ae25058e672391.woff) format("woff"), url(../d6263f1601018ed5400b.ttf) format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../c8a78822952426f10692.eot);
+  src: local("Aquawax Pro Italic"), local("AquawaxPro-Italic"), url(../c8a78822952426f10692.eot?#iefix) format("embedded-opentype"), url(../453db07884f163984d03.woff2) format("woff2"), url(../f5869e7f84860805de91.woff) format("woff"), url(../6c0b940d2d37f1cbc4f7.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../d887c3e248e3a5ce242b.eot);
+  src: local("Aquawax Pro UltraBold"), local("AquawaxPro-UltraBold"), url(../d887c3e248e3a5ce242b.eot?#iefix) format("embedded-opentype"), url(../d1623b4d50ef01ac4268.woff2) format("woff2"), url(../a08c4b38cd2487721249.woff) format("woff"), url(../754526cdba0e0dd9598c.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../4989c9065be548b5ce02.eot);
+  src: local("Aquawax Pro ExtraLight"), local("AquawaxPro-ExtraLight"), url(../4989c9065be548b5ce02.eot?#iefix) format("embedded-opentype"), url(../5fdf1a85035f935868f9.woff2) format("woff2"), url(../5cfd4322338da92e88b3.woff) format("woff"), url(../6fe463f0c7264e548a43.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../3c8710cb8b362c4f5bec.eot);
+  src: local("Aquawax Pro ExtraLight Italic"), local("AquawaxPro-ExtraLightItalic"), url(../3c8710cb8b362c4f5bec.eot?#iefix) format("embedded-opentype"), url(../c7b402ab213a270b98f5.woff2) format("woff2"), url(../d17bd90e595672f80bdc.woff) format("woff"), url(../1ea4807fc81d2e5481bc.ttf) format("truetype");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../2d69f6a261f9be01f7f3.eot);
+  src: local("Aquawax Pro Regular"), local("AquawaxPro-Regular"), url(../2d69f6a261f9be01f7f3.eot?#iefix) format("embedded-opentype"), url(../c3a954cc5f5a063a59d9.woff2) format("woff2"), url(../b6dbc72cfa269f3e04c9.woff) format("woff"), url(../22347c9fe5384b13fc4b.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../b4cdc0d8f5097d4afab9.eot);
+  src: local("Aquawax Pro Heavy"), local("AquawaxPro-Heavy"), url(../b4cdc0d8f5097d4afab9.eot?#iefix) format("embedded-opentype"), url(../23bc73e06f6d69c193b6.woff2) format("woff2"), url(../e0147576efbea9614fe8.woff) format("woff"), url(../7ea7681beba10ed099df.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../8dccbb4edfffbdcf67a4.eot);
+  src: local("Aquawax Pro Medium Italic"), local("AquawaxPro-MediumItalic"), url(../8dccbb4edfffbdcf67a4.eot?#iefix) format("embedded-opentype"), url(../a7dc46b6f23df8b1be09.woff2) format("woff2"), url(../4153b8d429c5aabce7d2.woff) format("woff"), url(../5c46f13bc4ffd07855a0.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../1027b3ee0aab6a2caa9c.eot);
+  src: local("Aquawax Pro Thin"), local("AquawaxPro-Thin"), url(../1027b3ee0aab6a2caa9c.eot?#iefix) format("embedded-opentype"), url(../d87b5eaa40c1daa2adfc.woff2) format("woff2"), url(../abf476975df3dc689c58.woff) format("woff"), url(../934a8fb24d8df9c46abb.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../bde805722e3290b54592.eot);
+  src: local("Aquawax Pro Medium"), local("AquawaxPro-Medium"), url(../bde805722e3290b54592.eot?#iefix) format("embedded-opentype"), url(../e2aea75bb2e4ea319396.woff2) format("woff2"), url(../729cb9fc920429392e1f.woff) format("woff"), url(../c32fefeea247b4359376.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aquawax Pro';
+  src: url(../9ed9cd4806045f6a55e1.eot);
+  src: local("Aquawax Pro UltraBold Italic"), local("AquawaxPro-UltraBoldItalic"), url(../9ed9cd4806045f6a55e1.eot?#iefix) format("embedded-opentype"), url(../13e575b4d8daadaaf406.woff2) format("woff2"), url(../9f33d70d2849a636e6df.woff) format("woff"), url(../d14362b8625e0f5924e0.ttf) format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+.header {
+  width: 100%; }
+  .header__top {
+    padding: 22px 0px; }
+  .header__logo > a {
+    color: #009176;
+    display: flex;
+    flex-direction: column; }
+    .header__logo > a > .top {
+      font-size: 22px;
+      font-weight: bold; }
+    .header__logo > a > .sub {
+      font-size: 14px; }
+  .header__container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative; }
+    .header__phone .phone-icon {
+      position: absolute;
+      right: -20px;
+      top: -2px; }
+    .header__phone h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0px; }
+    .header__phone > a {
+      font-size: 14px;
+      color: #009176; }
+  .header__top-right {
+    display: flex;
+    align-items: center; }
+  .header__lang {
+    margin: 0px 30px; }
+    .header__lang a {
+      text-transform: uppercase; }
+  .header__top-links {
+    color: #000; }
+    .header__top-links i {
+      color: #009176; }
+  .header__bottom {
+    background: #009176; }
+    .header__bottom ul {
+      display: flex;
+      margin: 0px;
+      padding: 30px 0px; }
+      .header__bottom ul > li {
+        list-style-type: none;
+        margin-right: 25px; }
+        .header__bottom ul > li > a {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500; }
+
+.banner {
+  height: 70vh; }
+  .banner .swiper-main-banner {
+    height: 100%; }
+  .banner__slide-content {
+    left: 0px; }
+  .banner__slide {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .banner__slide-content button {
+      margin-top: 20px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  font-family: "Aquawax Pro"; }
+
+.container {
+  width: 1200px;
+  position: relative; }
+
+.btn-main {
+  background: #009176;
+  color: #fff; }
+
+.section-heading__title {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0px; }
+
+.section-heading__subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #999; }
+
+.section-heading:after {
+  content: '';
+  width: 50px;
+  display: block;
+  height: 2px;
+  margin-top: 15px;
+  background: #009176; }
+

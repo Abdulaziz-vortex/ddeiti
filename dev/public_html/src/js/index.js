@@ -1,0 +1,1 @@
+let banner = new Swiper('.swiper-main-banner');

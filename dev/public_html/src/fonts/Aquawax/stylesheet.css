@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-DemiBold.eot');
+    src: local('Aquawax Pro DemiBold'), local('AquawaxPro-DemiBold'),
+        url('AquawaxPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-DemiBold.woff2') format('woff2'),
+        url('AquawaxPro-DemiBold.woff') format('woff'),
+        url('AquawaxPro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-HeavyItalic.eot');
+    src: local('Aquawax Pro Heavy Italic'), local('AquawaxPro-HeavyItalic'),
+        url('AquawaxPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-HeavyItalic.woff2') format('woff2'),
+        url('AquawaxPro-HeavyItalic.woff') format('woff'),
+        url('AquawaxPro-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-DemiBoldItalic.eot');
+    src: local('Aquawax Pro DemiBold Italic'), local('AquawaxPro-DemiBoldItalic'),
+        url('AquawaxPro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-DemiBoldItalic.woff2') format('woff2'),
+        url('AquawaxPro-DemiBoldItalic.woff') format('woff'),
+        url('AquawaxPro-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Bold.eot');
+    src: local('Aquawax Pro Bold'), local('AquawaxPro-Bold'),
+        url('AquawaxPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Bold.woff2') format('woff2'),
+        url('AquawaxPro-Bold.woff') format('woff'),
+        url('AquawaxPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-BoldItalic.eot');
+    src: local('Aquawax Pro Bold Italic'), local('AquawaxPro-BoldItalic'),
+        url('AquawaxPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-BoldItalic.woff2') format('woff2'),
+        url('AquawaxPro-BoldItalic.woff') format('woff'),
+        url('AquawaxPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-ThinItalic.eot');
+    src: local('Aquawax Pro Thin Italic'), local('AquawaxPro-ThinItalic'),
+        url('AquawaxPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-ThinItalic.woff2') format('woff2'),
+        url('AquawaxPro-ThinItalic.woff') format('woff'),
+        url('AquawaxPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Light.eot');
+    src: local('Aquawax Pro Light'), local('AquawaxPro-Light'),
+        url('AquawaxPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Light.woff2') format('woff2'),
+        url('AquawaxPro-Light.woff') format('woff'),
+        url('AquawaxPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-LightItalic.eot');
+    src: local('Aquawax Pro Light Italic'), local('AquawaxPro-LightItalic'),
+        url('AquawaxPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-LightItalic.woff2') format('woff2'),
+        url('AquawaxPro-LightItalic.woff') format('woff'),
+        url('AquawaxPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Italic.eot');
+    src: local('Aquawax Pro Italic'), local('AquawaxPro-Italic'),
+        url('AquawaxPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Italic.woff2') format('woff2'),
+        url('AquawaxPro-Italic.woff') format('woff'),
+        url('AquawaxPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-UltraBold.eot');
+    src: local('Aquawax Pro UltraBold'), local('AquawaxPro-UltraBold'),
+        url('AquawaxPro-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-UltraBold.woff2') format('woff2'),
+        url('AquawaxPro-UltraBold.woff') format('woff'),
+        url('AquawaxPro-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-ExtraLight.eot');
+    src: local('Aquawax Pro ExtraLight'), local('AquawaxPro-ExtraLight'),
+        url('AquawaxPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-ExtraLight.woff2') format('woff2'),
+        url('AquawaxPro-ExtraLight.woff') format('woff'),
+        url('AquawaxPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-ExtraLightItalic.eot');
+    src: local('Aquawax Pro ExtraLight Italic'), local('AquawaxPro-ExtraLightItalic'),
+        url('AquawaxPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-ExtraLightItalic.woff2') format('woff2'),
+        url('AquawaxPro-ExtraLightItalic.woff') format('woff'),
+        url('AquawaxPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Regular.eot');
+    src: local('Aquawax Pro Regular'), local('AquawaxPro-Regular'),
+        url('AquawaxPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Regular.woff2') format('woff2'),
+        url('AquawaxPro-Regular.woff') format('woff'),
+        url('AquawaxPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Heavy.eot');
+    src: local('Aquawax Pro Heavy'), local('AquawaxPro-Heavy'),
+        url('AquawaxPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Heavy.woff2') format('woff2'),
+        url('AquawaxPro-Heavy.woff') format('woff'),
+        url('AquawaxPro-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-MediumItalic.eot');
+    src: local('Aquawax Pro Medium Italic'), local('AquawaxPro-MediumItalic'),
+        url('AquawaxPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-MediumItalic.woff2') format('woff2'),
+        url('AquawaxPro-MediumItalic.woff') format('woff'),
+        url('AquawaxPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Thin.eot');
+    src: local('Aquawax Pro Thin'), local('AquawaxPro-Thin'),
+        url('AquawaxPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Thin.woff2') format('woff2'),
+        url('AquawaxPro-Thin.woff') format('woff'),
+        url('AquawaxPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-Medium.eot');
+    src: local('Aquawax Pro Medium'), local('AquawaxPro-Medium'),
+        url('AquawaxPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-Medium.woff2') format('woff2'),
+        url('AquawaxPro-Medium.woff') format('woff'),
+        url('AquawaxPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('AquawaxPro-UltraBoldItalic.eot');
+    src: local('Aquawax Pro UltraBold Italic'), local('AquawaxPro-UltraBoldItalic'),
+        url('AquawaxPro-UltraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AquawaxPro-UltraBoldItalic.woff2') format('woff2'),
+        url('AquawaxPro-UltraBoldItalic.woff') format('woff'),
+        url('AquawaxPro-UltraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+

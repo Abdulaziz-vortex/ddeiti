@@ -1,0 +1,224 @@
+$src-path : '../';
+
+$fonts-path: '#{$src-path}/fonts';
+
+$main : #009176;
+
+$container : 1200px;
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBold.eot');
+    src: local('Aquawax Pro DemiBold'), local('AquawaxPro-DemiBold'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBold.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBold.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-HeavyItalic.eot');
+    src: local('Aquawax Pro Heavy Italic'), local('AquawaxPro-HeavyItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-HeavyItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-HeavyItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBoldItalic.eot');
+    src: local('Aquawax Pro DemiBold Italic'), local('AquawaxPro-DemiBoldItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBoldItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBoldItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Bold.eot');
+    src: local('Aquawax Pro Bold'), local('AquawaxPro-Bold'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Bold.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Bold.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-BoldItalic.eot');
+    src: local('Aquawax Pro Bold Italic'), local('AquawaxPro-BoldItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-BoldItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-BoldItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-ThinItalic.eot');
+    src: local('Aquawax Pro Thin Italic'), local('AquawaxPro-ThinItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ThinItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ThinItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Light.eot');
+    src: local('Aquawax Pro Light'), local('AquawaxPro-Light'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Light.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Light.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-LightItalic.eot');
+    src: local('Aquawax Pro Light Italic'), local('AquawaxPro-LightItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-LightItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-LightItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Italic.eot');
+    src: local('Aquawax Pro Italic'), local('AquawaxPro-Italic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Italic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Italic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Italic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBold.eot');
+    src: local('Aquawax Pro UltraBold'), local('AquawaxPro-UltraBold'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBold.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBold.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLight.eot');
+    src: local('Aquawax Pro ExtraLight'), local('AquawaxPro-ExtraLight'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLight.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLight.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLightItalic.eot');
+    src: local('Aquawax Pro ExtraLight Italic'), local('AquawaxPro-ExtraLightItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLightItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLightItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Regular.eot');
+    src: local('Aquawax Pro Regular'), local('AquawaxPro-Regular'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Regular.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Regular.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Heavy.eot');
+    src: local('Aquawax Pro Heavy'), local('AquawaxPro-Heavy'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Heavy.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Heavy.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-MediumItalic.eot');
+    src: local('Aquawax Pro Medium Italic'), local('AquawaxPro-MediumItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-MediumItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-MediumItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Thin.eot');
+    src: local('Aquawax Pro Thin'), local('AquawaxPro-Thin'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Thin.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Thin.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Thin.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-Medium.eot');
+    src: local('Aquawax Pro Medium'), local('AquawaxPro-Medium'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Medium.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Medium.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBoldItalic.eot');
+    src: local('Aquawax Pro UltraBold Italic'), local('AquawaxPro-UltraBoldItalic'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBoldItalic.woff2') format('woff2'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBoldItalic.woff') format('woff'),
+    url('#{$fonts-path}/Aquawax/AquawaxPro-UltraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
