@@ -28,7 +28,7 @@ const filename = (rPath, ext) => {
 
     const filename = `[name].${ext}`;
 
-    return path.join(rPath,filename);
+    return path.join(rPath, filename);
 
 }
 
@@ -39,7 +39,7 @@ module.exports = {
     mode: 'development',
     entry: './public_html/src/index.js',
     output: {
-        filename: filename('js','js'),
+        filename: filename('js', 'js'),
         path: path.join(dist)
     },
     module: {
@@ -53,13 +53,29 @@ module.exports = {
                 }]
             },
             {
-            test: /\.(s*)css$/,
-            use: [
-                miniCss.loader,
-                'css-loader',
-                'sass-loader',
-            ]
-        },
+                test: /\.(s*)css$/,
+                use: [
+                    miniCss.loader,
+                    'css-loader',
+
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            sourceMap: true, // <-- !!IMPORTANT!!
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(woff2?|ttf|otf|eot|svg)$/,
+                exclude: /node_modules/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: 'fonts/',
+                    esModule : false,
+                }
+            },
         ]
     },
     plugins: [
@@ -75,6 +91,10 @@ module.exports = {
                             source: path.join(dist, 'style'),
                             destination: path.join(prod, 'css', 'styles')
                         },
+                        {
+                            source: path.join(src, 'fonts'),
+                            destination: path.join(prod, 'fonts')
+                        },
                     ]
                 }
             }
@@ -82,6 +102,6 @@ module.exports = {
 
     ],
     resolve: {
-        extensions: ['.scss','.js']
+        extensions: ['.scss', '.js']
     }
 };
