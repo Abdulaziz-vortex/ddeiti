@@ -12,7 +12,14 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'redactor' => [
+            'class' => '\yii\redactor\RedactorModule',
+            'uploadDir' => \Yii::getAlias('@backend').'/web/uploads/news',
+            'uploadUrl' => '/admin/uploads/news',
+            'imageAllowExtensions'=>['jpg','png','gif'],
+        ],
+    ],
     'components' => [
         'view' => [
             'theme' => [

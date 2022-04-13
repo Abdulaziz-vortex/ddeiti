@@ -75,6 +75,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        echo "<pre>";
+        print_r(Yii::$app->security->generatePasswordHash('ya38D?m7'));
+        echo "<pre>";
+        die();
         return $this->render('index');
     }
 

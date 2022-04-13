@@ -12,13 +12,18 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'photos')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'photos')->input('file') ?>
 
     <?= $form->field($model, 'header')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'text')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'text')->widget(\yii\redactor\widgets\Redactor::className(),[
+        'clientOptions' => [
+            'lang' => 'ru',
+            'plugins' => ['clips', 'fontcolor']
+        ]
+    ]) ?>
 
-    <?= $form->field($model, 'date')->textInput() ?>
+    <?= $form->field($model, 'date')->input('date') ?>
 
     <?= $form->field($model, 'views')->textInput() ?>
 

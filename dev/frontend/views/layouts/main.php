@@ -145,9 +145,10 @@ AppAsset::register($this);
 					<!-- RD Navbar Nav-->
 					<ul class="rd-navbar-nav">
 						<li class="active"><a href="./">Асосий сахифа</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="typography.html">Typography</a></li>
-						<li><a href="contact_us.html">Contact Us</a></li>
+						<li><a href="about.html">Институт хакида</a></li>
+						<li><a href="typography.html">Янгиликлар</a></li>
+						<li><a href="typography.html">Галерея</a></li>
+						<li><a href="contact_us.html">Богланиш</a></li>
 					</ul>
 				</div>
 			</div>

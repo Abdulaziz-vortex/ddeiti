@@ -52,4 +52,12 @@ class News extends \yii\db\ActiveRecord
             'views' => Yii::t('app', 'Views'),
         ];
     }
+
+    public function getShortText(){
+        return mb_substr($this->text, 0, 100).'...';
+    }
+
+    public function getShortHeading(){
+        return mb_substr($this->header, 0, 50).'...';
+    }
 }
