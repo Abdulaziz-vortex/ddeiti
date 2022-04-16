@@ -68,10 +68,11 @@ AppAsset::register($this);
                         </div>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li class="active"><a href="./">Асосий сахифа</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="typography.html">Typography</a></li>
-                            <li><a href="contact_us.html">Contact Us</a></li>
+	                        <li><a href="<?= \yii\helpers\Url::to(['site/index']) ?>">Асосийсахифа</a></li>
+	                        <li><a href="about.html">Институт хакида</a></li>
+	                        <li class="active"><a href="typography.html">Янгиликлар</a></li>
+	                        <li><a href="typography.html">Галерея</a></li>
+	                        <li><a href="contact_us.html">Богланиш</a></li>
                         </ul>
                     </div>
                 </div>
@@ -80,26 +81,20 @@ AppAsset::register($this);
 	    <section class="relative text-center">
 		    <div class="container">
 			    <div class="jumbotron text-left">
-				    <h1><span class='font-weight-bold'><?= isset($this->params['page_heading']) ? $this->params['page_heading'] : 'Page Heading' ?></span>
-				    </h1>
+				    <h2><span class='font-weight-bold text-white'><?= isset($this->title) ? $this->title : 'Page Heading' ?></span>
+				    </h2>
 			    </div>
 		    </div>
 	    </section>
     </header>
 
-    <main role="main" class="flex-shrink-0">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-    </main>
     <main class="page-content">
 	    <section class="bg-light section-xl">
 		    <div class="container">
-			    <ol class="breadcrumb">
-				    <li><a href="index.html">Home</a></li>
-				    <li><a href="#">Pages</a></li>
-				    <li class="active">About us</li>
-			    </ol>
+                <?= Breadcrumbs::widget([
+                    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                    'class' => 'breadcrumb'
+                ]) ?>
 		    </div>
 	    </section>
         <?= Alert::widget() ?>

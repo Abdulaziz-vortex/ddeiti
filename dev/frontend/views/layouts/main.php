@@ -145,9 +145,14 @@ AppAsset::register($this);
 					<!-- RD Navbar Nav-->
 					<ul class="rd-navbar-nav">
 						<li class="active"><a href="./">Асосийсахифа</a></li>
-						<li><a href="about.html">Институт хакида</a></li>
+						<li><a href="<?= \yii\helpers\Url::to(['site/about']) ?>">Институт хакида</a></li>
 						<li><a href="typography.html">Янгиликлар</a></li>
-						<li><a href="typography.html">Галерея</a></li>
+						<li class="rd-navbar--has-dropdown"><a href="typography.html">Галерея</a>
+							<ul class="rd-navbar-dropdown">
+								<li><a class="" href="#"><i class="fas fa-image mr-2 "></i>Фото</a></li>
+								<li><a class="" href="#"><i class="fas fa-video mr-2 "></i>Видео</a></li>
+							</ul>
+						</li>
 						<li><a href="contact_us.html">Богланиш</a></li>
 					</ul>
 				</div>

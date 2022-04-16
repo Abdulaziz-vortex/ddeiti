@@ -16,7 +16,7 @@ $dateHelper = new \frontend\helpers\DateHelper();
                 <div class="blog-post thumbnail-1 thumbnail-mod-2"><img src="/img/1.jpg" alt="">
                     <div class="caption">
                         <div class="blog-post-title">
-                            <h4 class="text-success-custom text-transform-none"><a href="<?= \yii\helpers\Url::to(['news/view','id' => $item->id]) ?>"><?= $item->getShortHeading() ?></a></h4>
+		                            <h4 class="text-success-custom text-transform-none"><a href="<?= \yii\helpers\Url::to(['news/view','id' => $item->id]) ?>"><?= $item->getShortHeading() ?></a></h4>
                         </div>
                         <div class="blog-post-time">
                             <time datetime="2015-12-26"><?= $dateHelper->getDateWithMonthName($item->date) ?></time>
