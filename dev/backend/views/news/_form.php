@@ -10,9 +10,9 @@ use yii\widgets\ActiveForm;
 
 <div class="news-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
-    <?= $form->field($model, 'photos')->input('file') ?>
+    <?= $form->field($model, 'photos')->fileInput() ?>
 
     <?= $form->field($model, 'header')->textInput(['maxlength' => true]) ?>
 

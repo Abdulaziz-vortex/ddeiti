@@ -3,7 +3,7 @@
 namespace backend\models;
 
 use Yii;
-
+use yii\web\UploadedFile;
 /**
  * This is the model class for table "news".
  *
@@ -31,10 +31,10 @@ class News extends \yii\db\ActiveRecord
     {
         return [
             [['text', 'date'], 'required'],
-            [['text'], 'string'],
+            [['text','header'], 'string'],
             [['date'], 'safe'],
             [['views'], 'integer'],
-            [['photos', 'header'], 'string', 'max' => 10000],
+            [['photos'], 'file','skipOnEmpty' => false, 'extensions' => 'png, jpg'],
         ];
     }
 
@@ -54,10 +54,21 @@ class News extends \yii\db\ActiveRecord
     }
 
     public function getShortText(){
-        return mb_substr($this->text, 0, 100).'...';
+
+        $text = mb_substr($this->text, 0, 100).'...';
+        return strip_tags($text,['p','br']);
     }
 
     public function getShortHeading(){
         return mb_substr($this->header, 0, 50).'...';
+    }
+
+    public function upload(){
+        if($this->validate()){
+            $this->photos->saveAs('uploads/'. $this->photos->baseName .'.'.$this->photos->extension);
+            return true;
+        }else{
+            return false;
+        }
     }
 }

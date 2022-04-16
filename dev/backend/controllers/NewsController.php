@@ -7,6 +7,7 @@ use backend\models\News;
 use backend\models\NewsSearch;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
+use yii\web\UploadedFile;
 
 class NewsController extends Controller
 {
@@ -28,8 +29,11 @@ class NewsController extends Controller
         
         if(Yii::$app->request->post()){
             $model->load(Yii::$app->request->post());
-            $model->save();
-            return $this->render('view',['model' => $model]);
+            $model->photos = UploadedFile::getInstance($model,'photos');
+            if($model->save()){
+                $model->upload();
+                return $this->render('view',['model' => $model]);
+            }
         }
         
         return $this->render('create', ['model' => $model]);

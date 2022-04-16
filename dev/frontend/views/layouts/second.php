@@ -80,7 +80,7 @@ AppAsset::register($this);
 	    <section class="relative text-center">
 		    <div class="container">
 			    <div class="jumbotron text-left">
-				    <h1><span class='font-weight-bold'><?= isset($this->params['page_heading']) ? $this->params['page Heading'] : 'Page Heading' ?></span>
+				    <h1><span class='font-weight-bold'><?= isset($this->params['page_heading']) ? $this->params['page_heading'] : 'Page Heading' ?></span>
 				    </h1>
 			    </div>
 		    </div>

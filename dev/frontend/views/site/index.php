@@ -28,12 +28,12 @@ $this->title = 'My Yii Application';
 			<div class="swiper-container swiper-slider">
 				<div class="jumbotron-mod-1 text-center">
 					<div>
-						<h1><span class='font-weight-bold'>DDEITI</span>
+						<h1><span class='font-weight-bold'>Дон ва дуккакли экинлар илмий-тадқиқот иститути</span>
 						</h1>
-						<p>The concept behind the creation of most multipurpose themes is to produce a single website
-							template that would suit any type of company</p>
-						<div class='btn-group-variant'><a class='btn btn-success btn-sm' href='#'>BUY a theme</a> <a
-									class='btn btn-white btn-sm' href='#'>view featured</a></div>
+						<!--						<p>Дон ва дуккакли экинлар илмий-тадқиқот институти</p>-->
+						<div class='btn-group-variant'><a class='btn btn-success btn-sm' href='#'>Институт хақида</a> <a
+									class='btn btn-white btn-sm' href='#'><i class="fas fa-phone mr-2 text-white"></i>Боғланиш</a>
+						</div>
 					</div>
 				</div>
 				<div class="swiper-wrapper">
@@ -59,48 +59,76 @@ $this->title = 'My Yii Application';
 
 			<section class="section">
 				<div class="container">
-					<h2>our advantages</h2>
+					<h2>Лабораториялар</h2>
 					<hr>
-					<p class="h5 fw-l">We create user interfaces and modern websites. We will help you build strong
-						online<br class="d-none d-lg-inline">business by creating a professional website which best
-						suits your needs.</p>
+					<!--					<p class="h5 fw-l">We create user interfaces and modern websites. We will help you build strong-->
+					<!--						online<br class="d-none d-lg-inline">business by creating a professional website which best-->
+					<!--						suits your needs.</p>-->
 					<div class="row row-60 clearleft-custom offset-custom-2">
-						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><span
-										class="icon icon-success icon-lg icon-mod-1 fa-desktop"></span>
-								<div class="caption">
-									<h4> Retina<br>Ready</h4>
-									<p>Now you can enjoy razor sharp text, vibrant colors and crisp images on your
-										retina display devices.</p>
+						<div class="col-12 col-md-6 col-xl-6">
+							<div class="thumbnail thumbnail-mod-1 text-left"><span
+										class="icon icon-success icon-lg icon-mod-1 fa-flask"></span>
+								<div class="caption text-left">
+									<h4>Дон экинлари селекцияси, уруғчилиги ва етиштириш агротехникаси
+										лабораторияси</h4>
+									<p class="text-dark">Лаборатория вазифалари бошоқли дон экинлар селекцияси, уруғчилиги ва етиштириш
+										агротехникаси бўйича илмий-тадқиқотлар олиб бориш, селекция жараёнида янги
+										навлар яратиш, уларни турли кўчатзорларда синовларини олиб бориш, яратилган янги
+										навларни Қишлоқ хўжалик экинлари навларини синаш Давлат комиссиясига топшириш.
+										Бошоқли дон экинларининг янги навларининг бирламчи уруғчилигини илмий асосда
+										ташкил этиб, юқори авлодли уруғликлар етиштириш ва республикадаги уруғчилик
+										фермер хўжаликларини таъминлаш. Шунингдек, навларнинг етиштириш агротехнологияси
+										элементларини ишлаб чиқиш ва ишлаб чиқаришга жорий этиш.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><span
-										class="icon icon-success icon-lg icon-mod-1 fa-cogs"></span>
-								<div class="caption">
-									<h4> Incredibly<br>Flexible</h4>
-									<p>Some developers have a defined workflow and are used to using various tools
-										independently.</p>
+						<div class="col-12 col-md-6 col-xl-6">
+							<div class="thumbnail thumbnail-mod-1 text-left"><span
+										class="icon icon-success icon-lg icon-mod-1 fa-flask"></span>
+								<div class="caption text-left">
+									<h4>Дуккакли дон экинлар селекцияси, уруғчилиги ва етиштириш агротехникаси
+										лабораторияси</h4>
+									<p class="text-dark">Лаборатория вазифалари бошоқли дон экинлар селекцияси, уруғчилиги ва етиштириш
+										агротехникаси бўйича илмий-тадқиқотлар олиб бориш, селекция жараёнида янги
+										навлар яратиш, уларни турли кўчатзорларда синовларини олиб бориш, яратилган янги
+										навларни Қишлоқ хўжалик экинлари навларини синаш Давлат комиссиясига топшириш.
+										Бошоқли дон экинларининг янги навларининг бирламчи уруғчилигини илмий асосда
+										ташкил этиб, юқори авлодли уруғликлар етиштириш ва республикадаги уруғчилик
+										фермер хўжаликларини таъминлаш. Шунингдек, навларнинг етиштириш агротехнологияси
+										элементларини ишлаб чиқиш ва ишлаб чиқаришга жорий этиш.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><span
-										class="icon icon-success icon-lg icon-mod-1 fa-pencil-square-o"></span>
-								<div class="caption">
-									<h4> Clean<br>Design</h4>
-									<p>Making design choices for your website can be a daunting task.</p>
+						<div class="col-12 col-md-6 col-xl-6">
+							<div class="thumbnail thumbnail-mod-1 text-left"><span
+										class="icon icon-success icon-lg icon-mod-1 fa-flask"></span>
+								<div class="caption text-left">
+									<h4>Озуқа экинлар селекцияси, уруғчилиги ва агротехникаси лабораторияси.</h4>
+									<p class="text-dark">Лаборатория вазифалари бошоқли дон экинлар селекцияси, уруғчилиги ва етиштириш
+										агротехникаси бўйича илмий-тадқиқотлар олиб бориш, селекция жараёнида янги
+										навлар яратиш, уларни турли кўчатзорларда синовларини олиб бориш, яратилган янги
+										навларни Қишлоқ хўжалик экинлари навларини синаш Давлат комиссиясига топшириш.
+										Бошоқли дон экинларининг янги навларининг бирламчи уруғчилигини илмий асосда
+										ташкил этиб, юқори авлодли уруғликлар етиштириш ва республикадаги уруғчилик
+										фермер хўжаликларини таъминлаш. Шунингдек, навларнинг етиштириш агротехнологияси
+										элементларини ишлаб чиқиш ва ишлаб чиқаришга жорий этиш.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><span
-										class="icon icon-success icon-lg icon-mod-1 fa-comments-o"></span>
-								<div class="caption">
-									<h4> Quick<br>Support</h4>
-									<p>Problems with your website or email? Check our Knowledgebase or contact us. We're
-										here to help!</p>
+
+						<div class="col-12 col-md-6 col-xl-6">
+							<div class="thumbnail thumbnail-mod-1 text-left"><span
+										class="icon icon-success icon-lg icon-mod-1 fa-flask"></span>
+								<div class="caption text-left">
+									<h4>Ўсимликлар ҳимояси ва агрокимё лабораторияси</h4>
+									<p class="text-dark">Лаборатория вазифалари бошоқли дон экинлар селекцияси, уруғчилиги ва етиштириш
+										агротехникаси бўйича илмий-тадқиқотлар олиб бориш, селекция жараёнида янги
+										навлар яратиш, уларни турли кўчатзорларда синовларини олиб бориш, яратилган янги
+										навларни Қишлоқ хўжалик экинлари навларини синаш Давлат комиссиясига топшириш.
+										Бошоқли дон экинларининг янги навларининг бирламчи уруғчилигини илмий асосда
+										ташкил этиб, юқори авлодли уруғликлар етиштириш ва республикадаги уруғчилик
+										фермер хўжаликларини таъминлаш. Шунингдек, навларнинг етиштириш агротехнологияси
+										элементларини ишлаб чиқиш ва ишлаб чиқаришга жорий этиш.</p>
 								</div>
 							</div>
 						</div>
@@ -110,78 +138,53 @@ $this->title = 'My Yii Application';
 
 			<section class="section section-inset-1 bg-accent">
 				<div class="container">
-					<h2 class="text-center">about company</h2>
+					<h2 class="text-center">ДОН ВА ДУККАКЛИ ЭКИНЛАР ИЛМИЙ-ТАДҚИҚОТ ИНСТИТУТИ ФАОЛИЯТИ ТЎҒРИСИДА</h2>
 					<hr>
 					<div class="row row-45">
-						<div class="col-12 col-md-12 col-lg-6 text-center text-lg-left"><img src="images/index-1.jpg"
-						                                                                     alt=""></div>
+						<div class="col-12 col-md-12 col-lg-6 text-center text-lg-left">
+							<img src="/img/about/2.jpg" alt=""></div>
 						<div class="col-12 col-md-12 col-lg-6 text-lg-left well1">
-							<p>We are a studio that aims to make our users experience easier and much more pleasant.</p>
-							<p>You probably won't have a better opportunity to make sure of our competence, as well as
-								friendliness towards our customers.</p>
-							<div class="progress-linear-container">
-								<!-- Linear progress bar-->
-								<article class="progress-linear">
-									<div class="progress-header">
-										<p>Social Media Marketing</p><span class="progress-value">50</span>
-									</div>
-									<div class="progress-bar-linear-wrap">
-										<div class="progress-bar-linear"></div>
-									</div>
-								</article>
-								<!-- Linear progress bar-->
-								<article class="progress-linear">
-									<div class="progress-header">
-										<p>Design</p><span class="progress-value">90</span>
-									</div>
-									<div class="progress-bar-linear-wrap">
-										<div class="progress-bar-linear"></div>
-									</div>
-								</article>
-								<!-- Linear progress bar-->
-								<article class="progress-linear">
-									<div class="progress-header">
-										<p>Consulting</p><span class="progress-value">80</span>
-									</div>
-									<div class="progress-bar-linear-wrap">
-										<div class="progress-bar-linear"></div>
-									</div>
-								</article>
-								<!-- Linear progress bar-->
-								<article class="progress-linear">
-									<div class="progress-header">
-										<p>Copywriting</p><span class="progress-value">20</span>
-									</div>
-									<div class="progress-bar-linear-wrap">
-										<div class="progress-bar-linear"></div>
-									</div>
-								</article>
-							</div>
+							<p>Дон ва дуккакли экинлар илмий-тадқиқот иститути Ўзбекистон Республикаси Вазирлар
+								Маҳкамасининг 1997 йил 25-августда 413-сонли қарори билан “Суғориладиган ерларда ғалла
+								ва дуккакли ўсимликлар илмий-тадқиқот институти” ҳамда Вазирлар Маҳкамасининг 1998 йил
+								7-августдаги 344-сонли қарори билан унинг республика вилоятларида филиаллари ташкил
+								этилган.</p>
+
+							<p>Бош институтнинг Қашқадарё филиали ҳамда 12 та (Ғаллаорол илмий-тажриба станцияси,
+								Маккажўхори селекцияси ва уруғчилиги илмий-тажриба станцияси, Тошкент илмий-тажриба
+								станцияси, Сирдарё илмий-тажриба станцияси, Самарқанд илмий-тажриба станцияси, Наманган
+								илмий-тажриба станцияси, Хоразм илмий-тажриба станцияси, Фарғона илмий-тажриба
+								станцияси, Сурхондарё илмий-тажриба станцияси, Навоий илмий-тажриба станцияси, Бухоро
+								илмий-тажриба станцияси, Қорақалпоғистон Республикаси илмий-тажриба станцияси)
+								минтақавий илмий-тажриба станциялари фаолият кўрсатиб келмоқда.</p>
 						</div>
 					</div>
-					<a class="btn btn-white btn-sm btn-min-width" href="#">learn more</a>
+					<a class="btn btn-white btn-sm btn-min-width" href="#">Батафсил</a>
 				</div>
 			</section>
 			<section class="section section-inset-2">
 				<div class="container">
-					<h2 class="text-center">Counters</h2>
+					<h2 class="text-center">Рақамлар</h2>
+					<p>Институт ва унинг вилоят филиал ҳамда илмий тажриба станцияларида жами бўлиб 163 та илмий
+						ходимлар</p>
 					<hr>
 					<div class="row row-45">
 						<div class="col-12 col-md-6 col-lg-3">
-							<div class="counter">78</div>
-							<p class="h5 fw-l text-transform-none letter-spacing">Successful projects</p>
+							<div class="counter">1</div>
+							<p class="h5 fw-l text-transform-none letter-spacing">РФА академик</p>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
-							<div class="counter">23</div>
-							<p class="h5 fw-l text-transform-none letter-spacing">Team members</p>
+							<div class="counter">6</div>
+							<p class="h5 fw-l text-transform-none letter-spacing">Фан доктори</p>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
-							<div class="counter">7</div>
-							<p class="h5 fw-l text-transform-none letter-spacing">Project managers</p>
+							<div class="counter">27</div>
+							<p class="h5 fw-l text-transform-none letter-spacing">Фан номзодлар</p>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
-							<div class="counter">374</div>
-							<p class="h5 fw-l text-transform-none letter-spacing">Satisfied customers</p>
+							<div class="counter">129</div>
+							<p class="h5 fw-l text-transform-none letter-spacing">Илмий ходимлар фаолият юритиб
+								келмоқда.</p>
 						</div>
 					</div>
 				</div>
@@ -190,65 +193,75 @@ $this->title = 'My Yii Application';
 				<div class="container">
 					<h2>Рахбарият</h2>
 					<hr>
-<!--					<p class="h5 fw-l">We design smart solutions for digital interactions. Оur creative team generates-->
-<!--						extraordinary web designs for personal and corporate purposes through innovative thinking.</p>-->
+					<!--					<p class="h5 fw-l">We design smart solutions for digital interactions. Оur creative team generates-->
+					<!--						extraordinary web designs for personal and corporate purposes through innovative thinking.</p>-->
 					<div class="row row-45 offset-custom-2">
 						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><img src="images/about-2.jpg" alt="">
+							<div class="thumbnail thumbnail-mod-1">
+								<div class="staff-img">
+									<img src="/img/staff/1.jpg" alt="">
+								</div>
 								<div class="caption caption-mod-1">
-									<h6 class="text-success-custom">Mark Johnson</h6><span class="text-gray">Technical
-										Director</span>
-									<p>He is responsible for making sure all development output is of the highest
-										standards.</p>
+									<h6 class="text-success-custom">Сиддиқов Рашанбек Иномжонович</h6>
+									<span
+											class="text-gray">Дон ва дуккакли экинлар илмий-тадқиқот институти
+										директори</span>
+									<!--									<p>Дон ва дуккакли экинлар илмий-тадқиқот институти директори қишлоқ хўжалиги-->
+									<!--										фанлари доктори, Россия Фанлари Академияси академиги</p>-->
 									<ul class="list-inline">
-										<li><a class="fa-facebook" href="#"></a></li>
-										<li><a class="fa-twitter" href="#"></a></li>
-										<li><a class="fa-google-plus" href="#"></a></li>
+										<li><a class="fa-phone" href="#"></a></li>
+										<li><a class="fa-envelope" href="#"></a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><img src="images/about-3.jpg" alt="">
+							<div class="thumbnail thumbnail-mod-1">
+								<div class="staff-img">
+									<img src="/img/staff/2.jpg" alt="">
+								</div>
 								<div class="caption caption-mod-1">
-									<h6 class="text-success-custom">Jessica Priston</h6><span class="text-gray">Web
-										Developer</span>
-									<p>As an experienced developer in our team, she specialises in front-end
-										development.</p>
+									<h6 class="text-success-custom">Эгамов Илхомжон Урайимжонович</h6><span
+											class="text-gray">Илмий ишлар буича директор ўринбосари</span>
+									<!--									<p>Дон ва дуккакли экинлар илмий-тадқиқот институти директори қишлоқ хўжалиги-->
+									<!--										фанлари доктори, Россия Фанлари Академияси академиги</p>-->
 									<ul class="list-inline">
-										<li><a class="fa-facebook" href="#"></a></li>
-										<li><a class="fa-twitter" href="#"></a></li>
-										<li><a class="fa-google-plus" href="#"></a></li>
+										<li><a class="fa-phone" href="#"></a></li>
+										<li><a class="fa-envelope" href="#"></a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><img src="images/about-4.jpg" alt="">
+							<div class="thumbnail thumbnail-mod-1">
+								<div class="staff-img">
+									<img src="/img/staff/4.jpg" alt="">
+								</div>
 								<div class="caption caption-mod-1">
-									<h6 class="text-success-custom">Sam Kromstain</h6><span class="text-gray">Team
-										Lead</span>
-									<p>Sam has been building startups in New York City for several years and now he is
-										working with us.</p>
+									<h6 class="text-success-custom">Узақов Фазлиддин Эргашович</h6><span
+											class="text-gray">Ишлаб-чиқариш бўйича директор ўринбосари</span>
+									<!--									<p>Sam has been building startups in New York City for several years and now he is-->
+									<!--										working with us.</p>-->
 									<ul class="list-inline">
-										<li><a class="fa-facebook" href="#"></a></li>
-										<li><a class="fa-twitter" href="#"></a></li>
-										<li><a class="fa-google-plus" href="#"></a></li>
+										<li><a class="fa-phone" href="#"></a></li>
+										<li><a class="fa-envelope" href="#"></a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-xl-3">
-							<div class="thumbnail thumbnail-mod-1"><img src="images/about-5.jpg" alt="">
+							<div class="thumbnail thumbnail-mod-1">
+								<div class="staff-img">
+									<img src="/img/staff/3.jpg" alt="">
+								</div>
 								<div class="caption caption-mod-1">
-									<h6 class="text-success-custom">Edna Barton</h6><span
-											class="text-gray">Assistant</span>
-									<p>Edna is responsible for the company's operating system, pricing, and strategic
-										planning.</p>
+									<h6 class="text-success-custom">Мўйидинов Ғиёсидин Камолдинович</h6><span
+											class="text-gray">Молия Иқтисод ишлари бўйича директор ўринбосари</span>
+									<!--									<p>Edna is responsible for the company's operating system, pricing, and strategic-->
+									<!--										planning.</p>-->
 									<ul class="list-inline">
-										<li><a class="fa-facebook" href="#"></a></li>
-										<li><a class="fa-twitter" href="#"></a></li>
-										<li><a class="fa-google-plus" href="#"></a></li>
+										<li><a class="fa-phone" href="#"></a></li>
+										<li><a class="fa-envelope" href="#"></a></li>
 									</ul>
 								</div>
 							</div>
@@ -257,120 +270,6 @@ $this->title = 'My Yii Application';
 				</div>
 			</section>
 
-			<section class="bg-light bg-subscribe section section-inset-1">
-				<div class="container">
-					<h2 class="text-center">newsletter</h2>
-					<hr>
-					<div class="row justify-content-center offset-custom-3">
-						<div class="col-12 col-lg-9 col-xl-6 col-lg-offset-2 col-xl offset-custom-3">
-							<p class="fw-l h5 text-transform-none">Enter your email address to receive all news, updates
-								on new arrivals, special offers and other discount information.</p>
-							<!-- RD Mailform-->
-							<form class="rd-mailform subscribe-form" data-result-class="rd-mailform-validate"
-							      data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
-								<div class="form-wrap">
-									<label class="form-label" for="forms-news-email">Your e-mail...</label>
-									<input class="form-input" id="forms-news-email" type="email" name="email"
-									       data-constraints="@Email @Required">
-								</div>
-								<div class="button-wrap">
-									<button class="btn btn-sm btn-success">Subscribe</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="section section-inset-1">
-				<div class="container">
-					<h2>testimonials</h2>
-					<hr>
-					<div class="row">
-						<div class="col-12">
-							<!-- Owl Carousel-->
-							<div class="owl-carousel owl-carousel-mod-2" data-items="1" data-md-items="2"
-							     data-xl-items="2" data-loop="false" data-margin="30" data-dots="true"
-							     data-autoplay="true">
-								<div class="owl-item">
-									<blockquote class="quote"><img class="rounded-circle" src="images/index-12.jpg"
-									                               alt=""/>
-										<p>
-											<cite>Sharon Willis</cite>
-										</p>
-										<p>
-											<q>Thanks a lot for the quick response. I was really impressed, your
-												solution is excellent! Your competence is justified!</q>
-										</p>
-									</blockquote>
-								</div>
-								<div class="owl-item">
-									<blockquote class="quote"><img class="rounded-circle" src="images/index-13.jpg"
-									                               alt=""/>
-										<p>
-											<cite>Jack Wilson</cite>
-										</p>
-										<p>
-											<q>I just don't know how to describe your services... They are
-												extraordinary! I am quite happy with them! Just keep up going this
-												way!</q>
-										</p>
-									</blockquote>
-								</div>
-								<div class="owl-item">
-									<blockquote class="quote"><img class="rounded-circle" src="images/index-12.jpg"
-									                               alt=""/>
-										<p>
-											<cite>Sharon Willis</cite>
-										</p>
-										<p>
-											<q>Thanks a lot for the quick response. I was really impressed, your
-												solution is excellent! Your competence is justified!</q>
-										</p>
-									</blockquote>
-								</div>
-								<div class="owl-item">
-									<blockquote class="quote"><img class="rounded-circle" src="images/index-13.jpg"
-									                               alt=""/>
-										<p>
-											<cite>Jack Wilson</cite>
-										</p>
-										<p>
-											<q>I just don't know how to describe your services... They are
-												extraordinary! I am quite happy with them! Just keep up going this
-												way!</q>
-										</p>
-									</blockquote>
-								</div>
-								<div class="owl-item">
-									<blockquote class="quote"><img class="rounded-circle" src="images/index-12.jpg"
-									                               alt=""/>
-										<p>
-											<cite>Sharon Willis</cite>
-										</p>
-										<p>
-											<q>Thanks a lot for the quick response. I was really impressed, your
-												solution is excellent! Your competence is justified!</q>
-										</p>
-									</blockquote>
-								</div>
-								<div class="owl-item">
-									<blockquote class="quote"><img class="rounded-circle" src="images/index-13.jpg"
-									                               alt=""/>
-										<p>
-											<cite>Jack Wilson</cite>
-										</p>
-										<p>
-											<q>I just don't know how to describe your services... They are
-												extraordinary! I am quite happy with them! Just keep up going this
-												way!</q>
-										</p>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 		</main>
 		<!-- Page Footer--><a class="d-block"
 		                      href="https://www.templatemonster.com/website-templates/vector-grand-website-template-58530.html"

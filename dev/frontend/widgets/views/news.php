@@ -22,13 +22,13 @@ $dateHelper = new \frontend\helpers\DateHelper();
                             <time datetime="2015-12-26"><?= $dateHelper->getDateWithMonthName($item->date) ?></time>
                         </div>
                         <div class="blog-post-body">
-                            <p><?= $item->getShortText() ?></p><a class="badge fa-comment text-success-custom" href="#">Батафсил</a>
+                            <p><?= $item->getShortText() ?></p><a class="badge text-success-custom" href="<?= \yii\helpers\Url::to(['news/view','id' => $item->id]) ?>">Батафсил</a>
                         </div>
                     </div>
                 </div>
             </div>
 
 	        <?php endforeach; ?>
-        </div><a class="btn btn-success-mod-1 btn-sm btn-min-width" href="#">view all blog posts</a>
+        </div><a class="btn btn-success-mod-1 btn-sm btn-min-width" href="#">Барча янгиликлар</a>
     </div>
 </section>

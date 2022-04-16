@@ -707,7 +707,7 @@
 					var bar = $(this);
 					if (!bar.hasClass('animated-first') && isScrolledIntoView(bar)) {
 						var end = parseInt($(this).find('.progress-value').text(), 10);
-						bar.find('.progress-bar-linear').css({width: end + '%'});
+						bar.find('.progress-bar-linear').css({width: end*3 });
 						bar.find('.progress-value').countTo({
 							refreshInterval: 40,
 							from: 0,
